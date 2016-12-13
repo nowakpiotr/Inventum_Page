@@ -55,7 +55,7 @@ table {
 
 body {
     color: #0076b1;
-    font: 300 16px/22px "Lato", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font: 300 16px/22px  "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 /*
@@ -292,6 +292,18 @@ color: black;
     width: 100%;
     /*height: auto;*/
 }
+
+.image-item {
+    position: relative;
+     /* for IE 6 */
+    width: 100%;
+    border-radius:6px;
+    /*height: auto;*/
+}
+
+.image-item image {
+    border-radius:6px;
+    }
 h2 {
     position: absolute;
     bottom: 20px;
